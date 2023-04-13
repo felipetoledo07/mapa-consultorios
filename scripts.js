@@ -35,10 +35,7 @@ let data = [
       "17:00:00": "Luiz Carlos Miguita",
       "17:20:00": "Luiz Carlos Miguita",
       "17:40:00": "Luiz Carlos Miguita",
-      "18:00:00": "Luiz Carlos Miguita",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Luiz Carlos Miguita"
     },
     {
       "Horário": "Terça-Feira",
@@ -75,10 +72,7 @@ let data = [
       "17:00:00": "Luiz Carlos Miguita",
       "17:20:00": "Luiz Carlos Miguita",
       "17:40:00": "Luiz Carlos Miguita",
-      "18:00:00": "Luiz Carlos Miguita",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Luiz Carlos Miguita"
     },
     {
       "Horário": "Quarta-Feira",
@@ -115,10 +109,7 @@ let data = [
       "17:00:00": "Luiz Carlos Miguita",
       "17:20:00": "Luiz Carlos Miguita",
       "17:40:00": "Luiz Carlos Miguita",
-      "18:00:00": "Luiz Carlos Miguita",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Luiz Carlos Miguita"
     },
     {
       "Horário": "Quinta-Feira",
@@ -155,10 +146,7 @@ let data = [
       "17:00:00": "Luiz Carlos Miguita",
       "17:20:00": "Luiz Carlos Miguita",
       "17:40:00": "Luiz Carlos Miguita",
-      "18:00:00": "Luiz Carlos Miguita",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Luiz Carlos Miguita"
     },
     {
       "Horário": "Sexta-Feira",
@@ -195,10 +183,7 @@ let data = [
       "17:00:00": "Luiz Carlos Miguita",
       "17:20:00": "Luiz Carlos Miguita",
       "17:40:00": "Luiz Carlos Miguita",
-      "18:00:00": "Luiz Carlos Miguita",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Luiz Carlos Miguita"
     },
     {
       "Horário": "Sábado",
@@ -235,10 +220,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -275,10 +257,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -317,10 +296,7 @@ let data = [
       "17:00:00": "Fernando Garcia Rocha",
       "17:20:00": "Fernando Garcia Rocha",
       "17:40:00": "Fernando Garcia Rocha",
-      "18:00:00": "Fernando Garcia Rocha",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Fernando Garcia Rocha"
     },
     {
       "Horário": "Terça-Feira",
@@ -357,10 +333,7 @@ let data = [
       "17:00:00": "Fernando Garcia Rocha",
       "17:20:00": "Fernando Garcia Rocha",
       "17:40:00": "Fernando Garcia Rocha",
-      "18:00:00": "Fernando Garcia Rocha",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Fernando Garcia Rocha"
     },
     {
       "Horário": "Quarta-Feira",
@@ -397,10 +370,7 @@ let data = [
       "17:00:00": "Fernando Garcia Rocha",
       "17:20:00": "Fernando Garcia Rocha",
       "17:40:00": "Fernando Garcia Rocha",
-      "18:00:00": "Fernando Garcia Rocha",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Fernando Garcia Rocha"
     },
     {
       "Horário": "Quinta-Feira",
@@ -437,10 +407,7 @@ let data = [
       "17:00:00": "Fernando Garcia Rocha",
       "17:20:00": "Fernando Garcia Rocha",
       "17:40:00": "Fernando Garcia Rocha",
-      "18:00:00": "Fernando Garcia Rocha",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Fernando Garcia Rocha"
     },
     {
       "Horário": "Sexta-Feira",
@@ -477,10 +444,7 @@ let data = [
       "17:00:00": "Fernando Garcia Rocha",
       "17:20:00": "Fernando Garcia Rocha",
       "17:40:00": "Fernando Garcia Rocha",
-      "18:00:00": "Fernando Garcia Rocha",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Fernando Garcia Rocha"
     },
     {
       "Horário": "Sábado",
@@ -517,10 +481,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -557,10 +518,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -599,10 +557,7 @@ let data = [
       "17:00:00": "Guilherme M. T. Utsumi",
       "17:20:00": "Guilherme M. T. Utsumi",
       "17:40:00": "Guilherme M. T. Utsumi",
-      "18:00:00": "Guilherme M. T. Utsumi",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Guilherme M. T. Utsumi"
     },
     {
       "Horário": "Terça-Feira",
@@ -639,10 +594,7 @@ let data = [
       "17:00:00": "Guilherme M. T. Utsumi",
       "17:20:00": "Guilherme M. T. Utsumi",
       "17:40:00": "Guilherme M. T. Utsumi",
-      "18:00:00": "Guilherme M. T. Utsumi",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Guilherme M. T. Utsumi"
     },
     {
       "Horário": "Quarta-Feira",
@@ -679,10 +631,7 @@ let data = [
       "17:00:00": "Guilherme M. T. Utsumi",
       "17:20:00": "Guilherme M. T. Utsumi",
       "17:40:00": "Guilherme M. T. Utsumi",
-      "18:00:00": "Guilherme M. T. Utsumi",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Guilherme M. T. Utsumi"
     },
     {
       "Horário": "Quinta-Feira",
@@ -719,10 +668,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Sexta-Feira",
@@ -759,10 +705,7 @@ let data = [
       "17:00:00": "Guilherme M. T. Utsumi",
       "17:20:00": "Guilherme M. T. Utsumi",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -799,10 +742,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -839,10 +779,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -881,10 +818,7 @@ let data = [
       "17:00:00": "Danilo Carrara Guedes",
       "17:20:00": "Danilo Carrara Guedes",
       "17:40:00": "Danilo Carrara Guedes",
-      "18:00:00": "Danilo Carrara Guedes",
-      "18:20:00": "Danilo Carrara Guedes",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Danilo Carrara Guedes"
     },
     {
       "Horário": "Terça-Feira",
@@ -921,10 +855,7 @@ let data = [
       "17:00:00": "Danilo Carrara Guedes",
       "17:20:00": "Danilo Carrara Guedes",
       "17:40:00": "Danilo Carrara Guedes",
-      "18:00:00": "Danilo Carrara Guedes",
-      "18:20:00": "Danilo Carrara Guedes",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Danilo Carrara Guedes"
     },
     {
       "Horário": "Quarta-Feira",
@@ -961,10 +892,7 @@ let data = [
       "17:00:00": "Danilo Carrara Guedes",
       "17:20:00": "Danilo Carrara Guedes",
       "17:40:00": "Danilo Carrara Guedes",
-      "18:00:00": "Danilo Carrara Guedes",
-      "18:20:00": "Danilo Carrara Guedes",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Danilo Carrara Guedes"
     },
     {
       "Horário": "Quinta-Feira",
@@ -1001,10 +929,7 @@ let data = [
       "17:00:00": "Danilo Carrara Guedes",
       "17:20:00": "Danilo Carrara Guedes",
       "17:40:00": "Danilo Carrara Guedes",
-      "18:00:00": "Danilo Carrara Guedes",
-      "18:20:00": "Danilo Carrara Guedes",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Danilo Carrara Guedes"
     },
     {
       "Horário": "Sexta-Feira",
@@ -1041,10 +966,7 @@ let data = [
       "17:00:00": "Danilo Carrara Guedes",
       "17:20:00": "Danilo Carrara Guedes",
       "17:40:00": "Danilo Carrara Guedes",
-      "18:00:00": "Danilo Carrara Guedes",
-      "18:20:00": "Danilo Carrara Guedes",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Danilo Carrara Guedes"
     },
     {
       "Horário": "Sábado",
@@ -1081,10 +1003,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -1121,10 +1040,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -1163,10 +1079,7 @@ let data = [
       "17:00:00": "Rodrigo Muniz",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Terça-Feira",
@@ -1203,10 +1116,7 @@ let data = [
       "17:00:00": "Rodrigo Muniz",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -1243,10 +1153,7 @@ let data = [
       "17:00:00": "Rodrigo Muniz",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quinta-Feira",
@@ -1283,10 +1190,7 @@ let data = [
       "17:00:00": "Rodrigo Muniz",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sexta-Feira",
@@ -1323,10 +1227,7 @@ let data = [
       "17:00:00": "Rodrigo Muniz",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -1363,10 +1264,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -1403,10 +1301,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -1445,10 +1340,7 @@ let data = [
       "17:00:00": "Tatiana Laskovski",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Terça-Feira",
@@ -1485,10 +1377,7 @@ let data = [
       "17:00:00": "Tatiana Laskovski",
       "17:20:00": "Tatiana Laskovski",
       "17:40:00": "Tatiana Laskovski",
-      "18:00:00": "Tatiana Laskovski",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Tatiana Laskovski"
     },
     {
       "Horário": "Quarta-Feira",
@@ -1525,10 +1414,7 @@ let data = [
       "17:00:00": "Tatiana Laskovski",
       "17:20:00": "Tatiana Laskovski",
       "17:40:00": "Tatiana Laskovski",
-      "18:00:00": "Tatiana Laskovski",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Tatiana Laskovski"
     },
     {
       "Horário": "Quinta-Feira",
@@ -1565,10 +1451,7 @@ let data = [
       "17:00:00": "Tatiana Laskovski",
       "17:20:00": "Tatiana Laskovski",
       "17:40:00": "Tatiana Laskovski",
-      "18:00:00": "Tatiana Laskovski",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Tatiana Laskovski"
     },
     {
       "Horário": "Sexta-Feira",
@@ -1605,10 +1488,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -1645,10 +1525,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -1685,10 +1562,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -1727,10 +1601,7 @@ let data = [
       "17:00:00": "Laércio Uemura",
       "17:20:00": "Laércio Uemura",
       "17:40:00": "Laércio Uemura",
-      "18:00:00": "Laércio Uemura",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Laércio Uemura"
     },
     {
       "Horário": "Terça-Feira",
@@ -1767,10 +1638,7 @@ let data = [
       "17:00:00": "Laércio Uemura",
       "17:20:00": "Laércio Uemura",
       "17:40:00": "Laércio Uemura",
-      "18:00:00": "Laércio Uemura",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Laércio Uemura"
     },
     {
       "Horário": "Quarta-Feira",
@@ -1807,10 +1675,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quinta-Feira",
@@ -1847,10 +1712,7 @@ let data = [
       "17:00:00": "Laércio Uemura",
       "17:20:00": "Laércio Uemura",
       "17:40:00": "Laércio Uemura",
-      "18:00:00": "Laércio Uemura",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Laércio Uemura"
     },
     {
       "Horário": "Sexta-Feira",
@@ -1887,10 +1749,7 @@ let data = [
       "17:00:00": "Laércio Uemura",
       "17:20:00": "Laércio Uemura",
       "17:40:00": "Laércio Uemura",
-      "18:00:00": "Laércio Uemura",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Laércio Uemura"
     },
     {
       "Horário": "Sábado",
@@ -1927,10 +1786,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -1967,10 +1823,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -2009,10 +1862,7 @@ let data = [
       "17:00:00": "Ricardo José Rodrigues",
       "17:20:00": "Ricardo José Rodrigues",
       "17:40:00": "Ricardo José Rodrigues",
-      "18:00:00": "Ricardo José Rodrigues",
-      "18:20:00": "Ricardo José Rodrigues",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ricardo José Rodrigues"
     },
     {
       "Horário": "Terça-Feira",
@@ -2049,10 +1899,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -2089,10 +1936,7 @@ let data = [
       "17:00:00": "Ricardo José Rodrigues",
       "17:20:00": "Ricardo José Rodrigues",
       "17:40:00": "Ricardo José Rodrigues",
-      "18:00:00": "Ricardo José Rodrigues",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ricardo José Rodrigues"
     },
     {
       "Horário": "Quinta-Feira",
@@ -2129,10 +1973,7 @@ let data = [
       "17:00:00": "Ricardo José Rodrigues",
       "17:20:00": "Ricardo José Rodrigues",
       "17:40:00": "Ricardo José Rodrigues",
-      "18:00:00": "Ricardo José Rodrigues",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ricardo José Rodrigues"
     },
     {
       "Horário": "Sexta-Feira",
@@ -2169,10 +2010,7 @@ let data = [
       "17:00:00": "Ricardo José Rodrigues",
       "17:20:00": "Ricardo José Rodrigues",
       "17:40:00": "Ricardo José Rodrigues",
-      "18:00:00": "Ricardo José Rodrigues",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ricardo José Rodrigues"
     },
     {
       "Horário": "Sábado",
@@ -2209,10 +2047,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -2249,10 +2084,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -2291,10 +2123,7 @@ let data = [
       "17:00:00": "Adriano L. U. Brandão",
       "17:20:00": "Adriano L. U. Brandão",
       "17:40:00": "Adriano L. U. Brandão",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Terça-Feira",
@@ -2331,10 +2160,7 @@ let data = [
       "17:00:00": "Adriano L. U. Brandão",
       "17:20:00": "Adriano L. U. Brandão",
       "17:40:00": "Adriano L. U. Brandão",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -2371,10 +2197,7 @@ let data = [
       "17:00:00": "Adriano L. U. Brandão",
       "17:20:00": "Adriano L. U. Brandão",
       "17:40:00": "Adriano L. U. Brandão",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quinta-Feira",
@@ -2411,10 +2234,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sexta-Feira",
@@ -2451,10 +2271,7 @@ let data = [
       "17:00:00": "Adriano L. U. Brandão",
       "17:20:00": "Adriano L. U. Brandão",
       "17:40:00": "Adriano L. U. Brandão",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -2491,10 +2308,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -2531,10 +2345,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -2545,9 +2356,9 @@ let data = [
       "07:40:00": "livre",
       "08:00:00": "livre",
       "08:20:00": "livre",
-      "08:40:00": "Gabriela Arfelli",
-      "09:00:00": "Gabriela Arfelli",
-      "09:20:00": "Gabriela Arfelli",
+      "08:40:00": "livre",
+      "09:00:00": "livre",
+      "09:20:00": "livre",
       "09:40:00": "livre",
       "10:00:00": "livre",
       "10:20:00": "livre",
@@ -2573,10 +2384,7 @@ let data = [
       "17:00:00": "Frank Henrique Curan",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Terça-Feira",
@@ -2613,10 +2421,7 @@ let data = [
       "17:00:00": "Lorena Oliveira Borges",
       "17:20:00": "Lorena Oliveira Borges",
       "17:40:00": "Lorena Oliveira Borges",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -2653,10 +2458,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quinta-Feira",
@@ -2693,10 +2495,7 @@ let data = [
       "17:00:00": "Hugo M. C. S. Penha",
       "17:20:00": "Hugo M. C. S. Penha",
       "17:40:00": "Hugo M. C. S. Penha",
-      "18:00:00": "Hugo M. C. S. Penha",
-      "18:20:00": "Hugo M. C. S. Penha",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Hugo M. C. S. Penha"
     },
     {
       "Horário": "Sexta-Feira",
@@ -2733,10 +2532,7 @@ let data = [
       "17:00:00": "Frank Henrique Curan",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -2773,10 +2569,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -2813,10 +2606,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -2855,10 +2645,7 @@ let data = [
       "17:00:00": "Lucas M. C. Paraíso",
       "17:20:00": "Lucas M. C. Paraíso",
       "17:40:00": "Lucas M. C. Paraíso",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Terça-Feira",
@@ -2895,10 +2682,7 @@ let data = [
       "17:00:00": "Lucas M. C. Paraíso",
       "17:20:00": "Lucas M. C. Paraíso",
       "17:40:00": "Lucas M. C. Paraíso",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -2935,10 +2719,7 @@ let data = [
       "17:00:00": "Lucas M. C. Paraíso",
       "17:20:00": "Lucas M. C. Paraíso",
       "17:40:00": "Lucas M. C. Paraíso",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quinta-Feira",
@@ -2975,10 +2756,7 @@ let data = [
       "17:00:00": "Lucas M. C. Paraíso",
       "17:20:00": "Lucas M. C. Paraíso",
       "17:40:00": "Lucas M. C. Paraíso",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sexta-Feira",
@@ -3015,10 +2793,7 @@ let data = [
       "17:00:00": "Lucas M. C. Paraíso",
       "17:20:00": "Lucas M. C. Paraíso",
       "17:40:00": "Lucas M. C. Paraíso",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -3055,10 +2830,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -3095,10 +2867,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -3120,27 +2889,24 @@ let data = [
       "11:20:00": "Moacir S. G Junior",
       "11:40:00": "livre",
       "12:00:00": "livre",
-      "12:20:00": "livre",
-      "12:40:00": "livre",
-      "13:00:00": "livre",
-      "13:20:00": "livre",
-      "13:40:00": "livre",
-      "14:00:00": "livre",
-      "14:20:00": "livre",
-      "14:40:00": "livre",
-      "15:00:00": "livre",
-      "15:20:00": "livre",
-      "15:40:00": "livre",
-      "16:00:00": "livre",
-      "16:20:00": "livre",
-      "16:40:00": "livre",
-      "17:00:00": "livre",
-      "17:20:00": "livre",
-      "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "12:20:00": "Moacir S. G Junior",
+      "12:40:00": "Moacir S. G Junior",
+      "13:00:00": "Moacir S. G Junior",
+      "13:20:00": "Moacir S. G Junior",
+      "13:40:00": "Moacir S. G Junior",
+      "14:00:00": "Moacir S. G Junior",
+      "14:20:00": "Moacir S. G Junior",
+      "14:40:00": "Moacir S. G Junior",
+      "15:00:00": "Moacir S. G Junior",
+      "15:20:00": "Moacir S. G Junior",
+      "15:40:00": "Moacir S. G Junior",
+      "16:00:00": "Moacir S. G Junior",
+      "16:20:00": "Moacir S. G Junior",
+      "16:40:00": "Moacir S. G Junior",
+      "17:00:00": "Moacir S. G Junior",
+      "17:20:00": "Moacir S. G Junior",
+      "17:40:00": "Moacir S. G Junior",
+      "18:00:00": "Moacir S. G Junior"
     },
     {
       "Horário": "Terça-Feira",
@@ -3177,10 +2943,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Quarta-Feira",
@@ -3200,27 +2963,24 @@ let data = [
       "11:20:00": "Moacir S. G Junior",
       "11:40:00": "livre",
       "12:00:00": "livre",
-      "12:20:00": "livre",
-      "12:40:00": "livre",
-      "13:00:00": "livre",
-      "13:20:00": "livre",
-      "13:40:00": "livre",
-      "14:00:00": "livre",
-      "14:20:00": "livre",
-      "14:40:00": "Gabriela Arfelli",
-      "15:00:00": "Gabriela Arfelli",
-      "15:20:00": "Gabriela Arfelli",
-      "15:40:00": "Gabriela Arfelli",
-      "16:00:00": "Gabriela Arfelli",
-      "16:20:00": "Gabriela Arfelli",
-      "16:40:00": "Gabriela Arfelli",
-      "17:00:00": "livre",
-      "17:20:00": "livre",
-      "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "12:20:00": "Lorena Oliveira Borges",
+      "12:40:00": "Lorena Oliveira Borges",
+      "13:00:00": "Lorena Oliveira Borges",
+      "13:20:00": "Lorena Oliveira Borges",
+      "13:40:00": "Lorena Oliveira Borges",
+      "14:00:00": "Lorena Oliveira Borges",
+      "14:20:00": "Lorena Oliveira Borges",
+      "14:40:00": "Lorena Oliveira Borges",
+      "15:00:00": "Lorena Oliveira Borges",
+      "15:20:00": "Lorena Oliveira Borges",
+      "15:40:00": "Lorena Oliveira Borges",
+      "16:00:00": "Lorena Oliveira Borges",
+      "16:20:00": "Lorena Oliveira Borges",
+      "16:40:00": "Lorena Oliveira Borges",
+      "17:00:00": "Lorena Oliveira Borges",
+      "17:20:00": "Lorena Oliveira Borges",
+      "17:40:00": "Lorena Oliveira Borges",
+      "18:00:00": "Lorena Oliveira Borges"
     },
     {
       "Horário": "Quinta-Feira",
@@ -3257,10 +3017,7 @@ let data = [
       "17:00:00": "livre",
       "17:20:00": "livre",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sexta-Feira",
@@ -3297,10 +3054,7 @@ let data = [
       "17:00:00": "Moacir S. G Junior",
       "17:20:00": "Moacir S. G Junior",
       "17:40:00": "livre",
-      "18:00:00": "livre",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "livre"
     },
     {
       "Horário": "Sábado",
@@ -3337,10 +3091,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -3377,10 +3128,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ],
   [
@@ -3419,10 +3167,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Terça-Feira",
@@ -3459,10 +3204,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Quarta-Feira",
@@ -3499,10 +3241,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Quinta-Feira",
@@ -3539,10 +3278,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Sexta-Feira",
@@ -3579,10 +3315,7 @@ let data = [
       "17:00:00": "Ligia Cristina Coelho",
       "17:20:00": "Ligia Cristina Coelho",
       "17:40:00": "Ligia Cristina Coelho",
-      "18:00:00": "Ligia Cristina Coelho",
-      "18:20:00": "livre",
-      "18:40:00": "livre",
-      "19:00:00": "livre"
+      "18:00:00": "Ligia Cristina Coelho"
     },
     {
       "Horário": "Sábado",
@@ -3619,10 +3352,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     },
     {
       "Horário": "Domingo",
@@ -3659,10 +3389,7 @@ let data = [
       "17:00:00": "Descanso Semanal",
       "17:20:00": "Descanso Semanal",
       "17:40:00": "Descanso Semanal",
-      "18:00:00": "Descanso Semanal",
-      "18:20:00": "Descanso Semanal",
-      "18:40:00": "Descanso Semanal",
-      "19:00:00": "Descanso Semanal"
+      "18:00:00": "Descanso Semanal"
     }
   ]
 ]

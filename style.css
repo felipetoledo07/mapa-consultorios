@@ -98,3 +98,14 @@ p {
 button:hover {
     cursor: pointer;
 }
+
+.rotate {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border: 1px black solid;
+}
+
+#division {
+    height: 20px;
+    background-color:#FF043C;
+}
