@@ -20,12 +20,7 @@ h2 {
     text-align: center;
     background-color: #FF043C;
     color: #ffffff;
-}
-
-section {
-    width: 1100px;
-    margin: 2% calc((100vw - 1100px) / 2);
-
+    padding: 16px;
 }
 
 nav {
@@ -44,8 +39,6 @@ button {
 }
 
 table {
-    margin: 0 calc((100% - 1100px) / 2);
-    width: 1100px;
     border: 1px black solid;
     border-collapse: collapse;
 }
@@ -93,6 +86,10 @@ p {
 
 .red {
     background-color: #FF043C;
+}
+
+button {
+    padding: 8px;
 }
 
 button:hover {
