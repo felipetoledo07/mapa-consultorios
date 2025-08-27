@@ -1,115 +1,119 @@
-* {
+/* Configurações Globais */
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-}
-    
-header {
-    background-color: #FFE2D7;
-    color: #FF043C;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-.maps * {
-    width: 50%;
-}
-
-h1 {
-    width: 100%;
-    padding: 20px;
-}
-
-h2 {
-    width: 100%;
-    text-align: center;
-    background-color: #FF043C;
-    color: #ffffff;
-}
-
-nav {
-    width: 100%;
+/* Container Principal - Layout Flexível */
+.container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: column; /* Organiza os itens em coluna */
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho */
 }
 
-button {
-    width: 8%;
-    justify-content:space-between;
-    align-items: center;
+h1, h2 {
     text-align: center;
-    background-color: #FFE2D7;
-    font-size: .85em;
+    color: #444;
+    flex-shrink: 0; /* Impede que os títulos encolham */
 }
 
+/* Seletores de Tipo e Sala */
+.selectors {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.selector-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.selector-group select {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* --- AJUSTE PRINCIPAL --- */
+/* Container da Agenda com Rolagem Interna */
+#agenda-container {
+    flex-grow: 1; /* Permite que este container cresça para ocupar o espaço restante */
+    overflow: auto; /* Adiciona barras de rolagem APENAS AQUI se o conteúdo for maior */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Tabela */
 table {
-    border: 1px black solid;
+    width: 100%;
     border-collapse: collapse;
 }
 
 th, td {
-    padding: 5px;
+    padding: 12px 8px; /* Reduzido o padding lateral para caber mais conteúdo */
+    border: 1px solid #ddd;
     text-align: center;
+    min-width: 120px; /* Largura mínima para cada coluna */
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
 }
 
-td {
-    border: 1px solid black;
-    width: 12.5%;
+/* Cabeçalho da Tabela Fixo (Sticky) */
+thead th {
+    background-color: #007bff;
+    color: #fff;
+    position: sticky; /* Faz o cabeçalho grudar no topo */
+    top: 0;
+    z-index: 2; /* Garante que fique acima do conteúdo que rola */
 }
 
-.flex {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+/* Coluna de Horário Fixa (Sticky) */
+td.horario-col {
+    font-weight: bold;
+    background-color: #e9ecef;
+    position: sticky; /* Faz a coluna de horário grudar à esquerda */
+    left: 0;
+    z-index: 1;
 }
 
-.logo {
-    width: 80px;
-    margin: 10px 0 10px 70px;
+/* Ajuste para que o cabeçalho da coluna de horário fique acima dela */
+thead th:first-child {
+    z-index: 3;
 }
 
-p {
-    width: 90%;
-    background-color: #FF043C;
-    color: #ffffff;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
-#ocupation {
-    width: 18%;
-    font-size: .9em;
-}
-#desocupation {
-    width: 20%;
-    font-size: .9em;
+/* Classes de Status (sem alteração) */
+.status-livre {
+    background-color: #d4edda;
+    color: #155724;
 }
 
-.red {
-    background-color: #FF043C;
+.status-descanso {
+    background-color: #fff3cd;
+    color: #856404;
 }
 
-button {
-    padding: 8px;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-.rotate {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    border: 1px black solid;
-}
-
-#division {
-    height: 20px;
-    background-color:#FF043C;
-}
-
-#hidden {
-    display: none;
+.status-ocupado {
+    background-color: #f8d7da;
+    color: #721c24;
 }
