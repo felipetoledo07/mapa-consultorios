@@ -3958,276 +3958,12 @@ const data = [
         "18:00:00": "Descanso Semanal"
       }
     ]
-  },
-  // {
-  //   "Sala": "ECO",
-  //   "Agenda": [
-  //     {
-  //       "Horário": "Segunda-Feira",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "livre",
-  //       "08:20:00": "Gabriela Arfelli",
-  //       "08:40:00": "Gabriela Arfelli",
-  //       "09:00:00": "Gabriela Arfelli",
-  //       "09:20:00": "Gabriela Arfelli",
-  //       "09:40:00": "Gabriela Arfelli",
-  //       "10:00:00": "Gabriela Arfelli",
-  //       "10:20:00": "Gabriela Arfelli",
-  //       "10:40:00": "Gabriela Arfelli",
-  //       "11:00:00": "Gabriela Arfelli",
-  //       "11:20:00": "Gabriela Arfelli",
-  //       "11:40:00": "livre",
-  //       "12:00:00": "livre",
-  //       "12:20:00": "livre",
-  //       "12:40:00": "livre",
-  //       "13:00:00": "livre",
-  //       "13:20:00": "livre",
-  //       "13:40:00": "livre",
-  //       "14:00:00": "livre",
-  //       "14:20:00": "livre",
-  //       "14:40:00": "livre",
-  //       "15:00:00": "livre",
-  //       "15:20:00": "Ligia Cristina Coelho",
-  //       "15:40:00": "Ligia Cristina Coelho",
-  //       "16:00:00": "Ligia Cristina Coelho",
-  //       "16:20:00": "Ligia Cristina Coelho",
-  //       "16:40:00": "Ligia Cristina Coelho",
-  //       "17:00:00": "Ligia Cristina Coelho",
-  //       "17:20:00": "Ligia Cristina Coelho",
-  //       "17:40:00": "Ligia Cristina Coelho",
-  //       "18:00:00": "Ligia Cristina Coelho"
-  //     },
-  //     {
-  //       "Horário": "Terça-Feira",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "livre",
-  //       "08:20:00": "livre",
-  //       "08:40:00": "livre",
-  //       "09:00:00": "livre",
-  //       "09:20:00": "livre",
-  //       "09:40:00": "livre",
-  //       "10:00:00": "livre",
-  //       "10:20:00": "livre",
-  //       "10:40:00": "livre",
-  //       "11:00:00": "livre",
-  //       "11:20:00": "livre",
-  //       "11:40:00": "livre",
-  //       "12:00:00": "livre",
-  //       "12:20:00": "livre",
-  //       "12:40:00": "livre",
-  //       "13:00:00": "livre",
-  //       "13:20:00": "livre",
-  //       "13:40:00": "livre",
-  //       "14:00:00": "livre",
-  //       "14:20:00": "livre",
-  //       "14:40:00": "livre",
-  //       "15:00:00": "Ligia Cristina Coelho",
-  //       "15:20:00": "Ligia Cristina Coelho",
-  //       "15:40:00": "Ligia Cristina Coelho",
-  //       "16:00:00": "Ligia Cristina Coelho",
-  //       "16:20:00": "Ligia Cristina Coelho",
-  //       "16:40:00": "Ligia Cristina Coelho",
-  //       "17:00:00": "Ligia Cristina Coelho",
-  //       "17:20:00": "Ligia Cristina Coelho",
-  //       "17:40:00": "Ligia Cristina Coelho",
-  //       "18:00:00": "Ligia Cristina Coelho"
-  //     },
-  //     {
-  //       "Horário": "Quarta-Feira",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "Hugo M. C. S. Penha",
-  //       "08:20:00": "Hugo M. C. S. Penha",
-  //       "08:40:00": "Hugo M. C. S. Penha",
-  //       "09:00:00": "Hugo M. C. S. Penha",
-  //       "09:20:00": "Hugo M. C. S. Penha",
-  //       "09:40:00": "Hugo M. C. S. Penha",
-  //       "10:00:00": "Hugo M. C. S. Penha",
-  //       "10:20:00": "Hugo M. C. S. Penha",
-  //       "10:40:00": "Hugo M. C. S. Penha",
-  //       "11:00:00": "Hugo M. C. S. Penha",
-  //       "11:20:00": "Hugo M. C. S. Penha",
-  //       "11:40:00": "Hugo M. C. S. Penha",
-  //       "12:00:00": "Hugo M. C. S. Penha",
-  //       "12:20:00": "Hugo M. C. S. Penha",
-  //       "12:40:00": "Hugo M. C. S. Penha",
-  //       "13:00:00": "Hugo M. C. S. Penha",
-  //       "13:20:00": "Hugo M. C. S. Penha",
-  //       "13:40:00": "Hugo M. C. S. Penha",
-  //       "14:00:00": "Hugo M. C. S. Penha",
-  //       "14:20:00": "Hugo M. C. S. Penha",
-  //       "14:40:00": "Hugo M. C. S. Penha",
-  //       "15:00:00": "livre",
-  //       "15:20:00": "livre",
-  //       "15:40:00": "livre",
-  //       "16:00:00": "Ligia Cristina Coelho",
-  //       "16:20:00": "Ligia Cristina Coelho",
-  //       "16:40:00": "Ligia Cristina Coelho",
-  //       "17:00:00": "Ligia Cristina Coelho",
-  //       "17:20:00": "Ligia Cristina Coelho",
-  //       "17:40:00": "Ligia Cristina Coelho",
-  //       "18:00:00": "Ligia Cristina Coelho"
-  //     },
-  //     {
-  //       "Horário": "Quinta-Feira",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "livre",
-  //       "08:20:00": "livre",
-  //       "08:40:00": "livre",
-  //       "09:00:00": "Gabriela Arfelli",
-  //       "09:20:00": "Gabriela Arfelli",
-  //       "09:40:00": "Gabriela Arfelli",
-  //       "10:00:00": "Gabriela Arfelli",
-  //       "10:20:00": "Gabriela Arfelli",
-  //       "10:40:00": "Gabriela Arfelli",
-  //       "11:00:00": "Gabriela Arfelli",
-  //       "11:20:00": "livre",
-  //       "11:40:00": "livre",
-  //       "12:00:00": "livre",
-  //       "12:20:00": "livre",
-  //       "12:40:00": "livre",
-  //       "13:00:00": "livre",
-  //       "13:20:00": "livre",
-  //       "13:40:00": "livre",
-  //       "14:00:00": "livre",
-  //       "14:20:00": "livre",
-  //       "14:40:00": "livre",
-  //       "15:00:00": "livre",
-  //       "15:20:00": "livre",
-  //       "15:40:00": "livre",
-  //       "16:00:00": "Ligia Cristina Coelho",
-  //       "16:20:00": "Ligia Cristina Coelho",
-  //       "16:40:00": "Ligia Cristina Coelho",
-  //       "17:00:00": "Ligia Cristina Coelho",
-  //       "17:20:00": "Ligia Cristina Coelho",
-  //       "17:40:00": "Ligia Cristina Coelho",
-  //       "18:00:00": "Ligia Cristina Coelho"
-  //     },
-  //     {
-  //       "Horário": "Sexta-Feira",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "livre",
-  //       "08:20:00": "livre",
-  //       "08:40:00": "livre",
-  //       "09:00:00": "livre",
-  //       "09:20:00": "Ligia Cristina Coelho",
-  //       "09:40:00": "Ligia Cristina Coelho",
-  //       "10:00:00": "Ligia Cristina Coelho",
-  //       "10:20:00": "Ligia Cristina Coelho",
-  //       "10:40:00": "Ligia Cristina Coelho",
-  //       "11:00:00": "Ligia Cristina Coelho",
-  //       "11:20:00": "Ligia Cristina Coelho",
-  //       "11:40:00": "Ligia Cristina Coelho",
-  //       "12:00:00": "Ligia Cristina Coelho",
-  //       "12:20:00": "Ligia Cristina Coelho",
-  //       "12:40:00": "Ligia Cristina Coelho",
-  //       "13:00:00": "Ligia Cristina Coelho",
-  //       "13:20:00": "Ligia Cristina Coelho",
-  //       "13:40:00": "Ligia Cristina Coelho",
-  //       "14:00:00": "Ligia Cristina Coelho",
-  //       "14:20:00": "Ligia Cristina Coelho",
-  //       "14:40:00": "Ligia Cristina Coelho",
-  //       "15:00:00": "Ligia Cristina Coelho",
-  //       "15:20:00": "Ligia Cristina Coelho",
-  //       "15:40:00": "Ligia Cristina Coelho",
-  //       "16:00:00": "Ligia Cristina Coelho",
-  //       "16:20:00": "Ligia Cristina Coelho",
-  //       "16:40:00": "Ligia Cristina Coelho",
-  //       "17:00:00": "Ligia Cristina Coelho",
-  //       "17:20:00": "Ligia Cristina Coelho",
-  //       "17:40:00": "Ligia Cristina Coelho",
-  //       "18:00:00": "Ligia Cristina Coelho"
-  //     },
-  //     {
-  //       "Horário": "Sábado",
-  //       "07:00:00": "livre",
-  //       "07:20:00": "livre",
-  //       "07:40:00": "livre",
-  //       "08:00:00": "livre",
-  //       "08:20:00": "livre",
-  //       "08:40:00": "livre",
-  //       "09:00:00": "livre",
-  //       "09:20:00": "livre",
-  //       "09:40:00": "livre",
-  //       "10:00:00": "livre",
-  //       "10:20:00": "livre",
-  //       "10:40:00": "livre",
-  //       "11:00:00": "livre",
-  //       "11:20:00": "livre",
-  //       "11:40:00": "livre",
-  //       "12:00:00": "Descanso Semanal",
-  //       "12:20:00": "Descanso Semanal",
-  //       "12:40:00": "Descanso Semanal",
-  //       "13:00:00": "Descanso Semanal",
-  //       "13:20:00": "Descanso Semanal",
-  //       "13:40:00": "Descanso Semanal",
-  //       "14:00:00": "Descanso Semanal",
-  //       "14:20:00": "Descanso Semanal",
-  //       "14:40:00": "Descanso Semanal",
-  //       "15:00:00": "Descanso Semanal",
-  //       "15:20:00": "Descanso Semanal",
-  //       "15:40:00": "Descanso Semanal",
-  //       "16:00:00": "Descanso Semanal",
-  //       "16:20:00": "Descanso Semanal",
-  //       "16:40:00": "Descanso Semanal",
-  //       "17:00:00": "Descanso Semanal",
-  //       "17:20:00": "Descanso Semanal",
-  //       "17:40:00": "Descanso Semanal",
-  //       "18:00:00": "Descanso Semanal"
-  //     },
-  //     {
-  //       "Horário": "Domingo",
-  //       "07:00:00": "Descanso Semanal",
-  //       "07:20:00": "Descanso Semanal",
-  //       "07:40:00": "Descanso Semanal",
-  //       "08:00:00": "Descanso Semanal",
-  //       "08:20:00": "Descanso Semanal",
-  //       "08:40:00": "Descanso Semanal",
-  //       "09:00:00": "Descanso Semanal",
-  //       "09:20:00": "Descanso Semanal",
-  //       "09:40:00": "Descanso Semanal",
-  //       "10:00:00": "Descanso Semanal",
-  //       "10:20:00": "Descanso Semanal",
-  //       "10:40:00": "Descanso Semanal",
-  //       "11:00:00": "Descanso Semanal",
-  //       "11:20:00": "Descanso Semanal",
-  //       "11:40:00": "Descanso Semanal",
-  //       "12:00:00": "Descanso Semanal",
-  //       "12:20:00": "Descanso Semanal",
-  //       "12:40:00": "Descanso Semanal",
-  //       "13:00:00": "Descanso Semanal",
-  //       "13:20:00": "Descanso Semanal",
-  //       "13:40:00": "Descanso Semanal",
-  //       "14:00:00": "Descanso Semanal",
-  //       "14:20:00": "Descanso Semanal",
-  //       "14:40:00": "Descanso Semanal",
-  //       "15:00:00": "Descanso Semanal",
-  //       "15:20:00": "Descanso Semanal",
-  //       "15:40:00": "Descanso Semanal",
-  //       "16:00:00": "Descanso Semanal",
-  //       "16:20:00": "Descanso Semanal",
-  //       "16:40:00": "Descanso Semanal",
-  //       "17:00:00": "Descanso Semanal",
-  //       "17:20:00": "Descanso Semanal",
-  //       "17:40:00": "Descanso Semanal",
-  //       "18:00:00": "Descanso Semanal"
-  //     }
-  //   ]
-  // }
+  }
 ]
 
 
 function start() {
-    let btns = document.querySelectorAll("button");
+    let btns = document.querySelectorAll(".select-button");
     
     for (let bt of btns) {
         bt.addEventListener('click', () => {
@@ -4254,6 +3990,33 @@ function start() {
     }
 
     change(btns[0]);
+
+    let navBtns = document.querySelectorAll(".nav-button");
+    for (let navBt of navBtns) {
+        navBt.addEventListener('click', () => {
+            changeNavButton(navBt);
+        });
+    }
+
+    function changeNavButton(bt_par) {
+        changeNavBtCss(bt_par);
+        // changeSchedule();
+        // getNames();
+        // calculatePercentage();
+    }
+
+    function changeNavBtCss(bt_par) {
+        for (let navBtn of navBtns) {
+            navBtn.style.backgroundColor = "#FFE2D7";
+            navBtn.style.color = "#000000";
+            navBtn.removeAttribute("id");
+        }
+        bt_par.style.backgroundColor = "#FF043C";
+        bt_par.style.color = "#ffffff";
+        bt_par.setAttribute("id", "nav-selected");
+    }
+
+    changeNavButton(navBtns[0])
 }
 
 function changeSchedule() {
@@ -4261,12 +4024,12 @@ function changeSchedule() {
     let room = document.getElementById("selected").innerHTML.slice(11);
 
     if (room === "") {
-        room = 1; // fallback
+        room = 1;
     } else {
         room = Number(room);
     }
-
-    let agenda = data[room - 1].Agenda; // <- pega a Agenda da sala
+    
+    let agenda = data[room - 1].Agenda;
     
     times.forEach(function(time) {
         let time_clock = time.parentElement.firstElementChild.innerHTML + ":00";

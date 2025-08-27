@@ -10,6 +10,10 @@ header {
     color: #FF043C;
 }
 
+.maps * {
+    width: 50%;
+}
+
 h1 {
     width: 100%;
     padding: 20px;
@@ -104,4 +108,8 @@ button:hover {
 #division {
     height: 20px;
     background-color:#FF043C;
+}
+
+#hidden {
+    display: none;
 }
