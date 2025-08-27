@@ -2,16 +2,26 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif; /* <-- FONTE ALTERADA AQUI */
     background-color: #f4f4f9;
     color: #333;
+}
+
+/* Estilo para a Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    z-index: 10;
 }
 
 /* Container Principal - Layout Flexível */
 .container {
     display: flex;
-    flex-direction: column; /* Organiza os itens em coluna */
-    height: 100vh; /* Ocupa 100% da altura da tela */
+    flex-direction: column;
+    height: 100vh;
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
@@ -19,13 +29,19 @@ html, body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box; /* Garante que padding não aumente o tamanho */
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 80px; 
 }
 
 h1, h2 {
     text-align: center;
     color: #444;
-    flex-shrink: 0; /* Impede que os títulos encolham */
+    flex-shrink: 0;
+}
+
+h1 {
+    margin-top: 0;
 }
 
 /* Seletores de Tipo e Sala */
@@ -49,13 +65,13 @@ h1, h2 {
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif; /* <-- GARANTE A FONTE NOS MENUS */
 }
 
-/* --- AJUSTE PRINCIPAL --- */
 /* Container da Agenda com Rolagem Interna */
 #agenda-container {
-    flex-grow: 1; /* Permite que este container cresça para ocupar o espaço restante */
-    overflow: auto; /* Adiciona barras de rolagem APENAS AQUI se o conteúdo for maior */
+    flex-grow: 1;
+    overflow: auto;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -67,42 +83,40 @@ table {
 }
 
 th, td {
-    padding: 12px 8px; /* Reduzido o padding lateral para caber mais conteúdo */
+    padding: 12px 8px;
     border: 1px solid #ddd;
     text-align: center;
-    min-width: 120px; /* Largura mínima para cada coluna */
-    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    min-width: 120px;
+    white-space: nowrap;
 }
 
 /* Cabeçalho da Tabela Fixo (Sticky) */
 thead th {
-    background-color: #007bff;
+    background-color: #2b3a49;
     color: #fff;
-    position: sticky; /* Faz o cabeçalho grudar no topo */
+    position: sticky;
     top: 0;
-    z-index: 2; /* Garante que fique acima do conteúdo que rola */
+    z-index: 2;
 }
 
 /* Coluna de Horário Fixa (Sticky) */
 td.horario-col {
     font-weight: bold;
     background-color: #e9ecef;
-    position: sticky; /* Faz a coluna de horário grudar à esquerda */
+    position: sticky;
     left: 0;
     z-index: 1;
 }
 
-/* Ajuste para que o cabeçalho da coluna de horário fique acima dela */
 thead th:first-child {
     z-index: 3;
 }
-
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Classes de Status (sem alteração) */
+/* Classes de Status */
 .status-livre {
     background-color: #d4edda;
     color: #155724;
@@ -114,6 +128,6 @@ tbody tr:nth-child(even) {
 }
 
 .status-ocupado {
-    background-color: #f8d7da;
+    background-color: #f7dadc;
     color: #721c24;
 }

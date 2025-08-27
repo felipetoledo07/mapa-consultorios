@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Salas</title>
+    <title>Agenda da Clínica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
     <div class="container">
-        <h1>Agenda de Salas</h1>
+        <img src="logo.png" alt="Centro do Coração Logo" class="logo">
+        <h1>Agenda da Clínica</h1>
         <div class="selectors">
             <div class="selector-group">
-                <label for="tipo-select">Selecione o Tipo:</label>
+                <label for="tipo-select">Selecione a classe:</label>
                 <select id="tipo-select">
                     <option value="">--Selecione--</option>
                 </select>
             </div>
             <div class="selector-group">
-                <label for="sala-select">Selecione a Sala:</label>
+                <label for="sala-select">Selecione o local:</label>
                 <select id="sala-select" disabled>
-                    <option value="">--Aguardando tipo--</option>
+                    <option value="">--Aguardando--</option>
                 </select>
             </div>
         </div>
