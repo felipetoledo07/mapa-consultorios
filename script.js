@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const ocupacaoPercentSpan = document.getElementById('ocupacao-percent');
+    const vacanciaPercentSpan = document.getElementById('vacancia-percent');
     const tipoSelect = document.getElementById('tipo-select');
     const salaSelect = document.getElementById('sala-select');
     const agendaContainer = document.getElementById('agenda-container');
@@ -7144,42 +7146,48 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ]
 
-    popularTipos(dadosAgenda);
+    // --- Lógica da Aplicação ---
 
-    // Preenche o seletor de tipos
+    // 1. Preenche o primeiro seletor (Tipos)
     function popularTipos(data) {
         data.forEach(item => {
             const option = document.createElement('option');
-            option.value = item.tipo;
+            option.value = item.tipo; // Pega o valor "consultorio"
             option.textContent = item.tipo.charAt(0).toUpperCase() + item.tipo.slice(1);
             tipoSelect.appendChild(option);
         });
     }
 
-    // Preenche o seletor de salas quando um tipo é escolhido
+    // 2. Escuta mudanças no seletor de Tipos
     tipoSelect.addEventListener('change', (e) => {
         const tipoSelecionado = e.target.value;
-        salaSelect.innerHTML = '<option value="">--Selecione a Sala--</option>';
-        agendaContainer.innerHTML = '<p>Selecione uma sala para ver a agenda.</p>';
+
+        // Reseta o seletor de salas e a agenda
+        salaSelect.innerHTML = '<option value="">--Selecione o Local--</option>';
+        agendaContainer.innerHTML = '<p>Selecione uma classe e um local para ver a agenda.</p>';
         agendaTitle.textContent = '';
+        atualizarEstatisticas(null);
+        salaSelect.disabled = true;
 
         if (tipoSelecionado) {
+            // Encontra o tipo selecionado nos dados. A comparação é exata!
             const tipoData = dadosAgenda.find(item => item.tipo === tipoSelecionado);
+
+            // Se encontrou o tipo e ele tem uma lista de salas, habilita o seletor
             if (tipoData && tipoData.salas) {
                 tipoData.salas.forEach(sala => {
                     const option = document.createElement('option');
-                    option.value = sala.sala;
+                    option.value = sala.sala; // Pega o valor "Consultório 1"
                     option.textContent = sala.sala;
                     salaSelect.appendChild(option);
                 });
-                salaSelect.disabled = false;
+                console.log("chegou")
+                salaSelect.disabled = false; // HABILITA O SELETOR DE LOCAL
             }
-        } else {
-            salaSelect.disabled = true;
         }
     });
 
-    // Mostra a agenda quando uma sala é escolhida
+    // 3. Escuta mudanças no seletor de Salas
     salaSelect.addEventListener('change', (e) => {
         const salaSelecionada = e.target.value;
         const tipoSelecionado = tipoSelect.value;
@@ -7187,19 +7195,21 @@ document.addEventListener('DOMContentLoaded', () => {
         if (salaSelecionada && tipoSelecionado) {
             const tipoData = dadosAgenda.find(item => item.tipo === tipoSelecionado);
             const salaData = tipoData.salas.find(item => item.sala === salaSelecionada);
+
             if (salaData && salaData.agenda) {
                 agendaTitle.textContent = `Agenda para: ${salaSelecionada}`;
                 exibirAgenda(salaData.agenda);
+                atualizarEstatisticas(salaData.agenda);
             }
         } else {
-            agendaContainer.innerHTML = '<p>Selecione uma sala para ver a agenda.</p>';
+            agendaContainer.innerHTML = '<p>Selecione um local para ver a agenda.</p>';
             agendaTitle.textContent = '';
+            atualizarEstatisticas(null);
         }
     });
 
-    // Constrói e exibe a tabela da agenda
+    // 4. Constrói e exibe a tabela da agenda
     function exibirAgenda(agenda) {
-        // Extrai todos os horários únicos e dias da semana
         const horariosUnicos = new Set();
         const diasDaSemana = [];
         const agendaPorDia = {};
@@ -7215,19 +7225,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const horariosOrdenados = Array.from(horariosUnicos).sort();
-
-        // Cria a estrutura da tabela
-        let tableHTML = '<table>';
-
-        // Cabeçalho da tabela (Dias da Semana)
-        tableHTML += '<thead><tr><th>Horário</th>';
-        diasDaSemana.forEach(dia => {
-            tableHTML += `<th>${dia}</th>`;
-        });
-        tableHTML += '</tr></thead>';
-
-        // Corpo da tabela (Horários e Agendamentos)
-        tableHTML += '<tbody>';
+        let tableHTML = '<table><thead><tr><th>Horário</th>';
+        diasDaSemana.forEach(dia => { tableHTML += `<th>${dia}</th>`; });
+        tableHTML += '</tr></thead><tbody>';
         horariosOrdenados.forEach(horario => {
             tableHTML += `<tr><td class="horario-col">${horario}</td>`;
             diasDaSemana.forEach(dia => {
@@ -7238,19 +7238,51 @@ document.addEventListener('DOMContentLoaded', () => {
             tableHTML += '</tr>';
         });
         tableHTML += '</tbody></table>';
-
         agendaContainer.innerHTML = tableHTML;
     }
 
+    // 5. Define a cor da célula baseada no status
     function getStatusClass(agendamento) {
         if (!agendamento) return '';
         const lowerCaseAgendamento = agendamento.toLowerCase();
-        if (lowerCaseAgendamento === 'livre') {
-            return 'status-livre';
-        }
-        if (lowerCaseAgendamento === 'descanso') {
-            return 'status-descanso';
-        }
+        if (lowerCaseAgendamento === 'livre') return 'status-livre';
+        if (lowerCaseAgendamento === 'descanso') return 'status-descanso';
         return 'status-ocupado';
     }
+
+    // 6. Calcula e exibe as estatísticas
+    function atualizarEstatisticas(agenda) {
+        if (!agenda) {
+            ocupacaoPercentSpan.textContent = '--';
+            vacanciaPercentSpan.textContent = '--';
+            return;
+        }
+
+        let totalSlots = 0, slotsOcupados = 0, slotsLivres = 0;
+        agenda.forEach(dia => {
+            Object.keys(dia).forEach(key => {
+                if (key !== 'horario') {
+                    const status = dia[key].toLowerCase();
+                    if (status !== 'descanso' && status !== 'n/a') {
+                        totalSlots++;
+                        if (status === 'livre') {
+                            slotsLivres++;
+                        } else {
+                            slotsOcupados++;
+                        }
+                    }
+
+                }
+            });
+        });
+
+        const ocupacao = totalSlots > 0 ? ((slotsOcupados / totalSlots) * 100).toFixed(1) : 0;
+        const vacancia = totalSlots > 0 ? ((slotsLivres / totalSlots) * 100).toFixed(1) : 0;
+        ocupacaoPercentSpan.textContent = `${ocupacao}%`;
+        vacanciaPercentSpan.textContent = `${vacancia}%`;
+    }
+
+    // --- Início da Aplicação ---
+    popularTipos(dadosAgenda);
 });
+

@@ -2,7 +2,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Montserrat', sans-serif; /* <-- FONTE ALTERADA AQUI */
+    font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f9;
     color: #333;
 }
@@ -31,7 +31,7 @@ html, body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     position: relative;
-    padding-top: 80px; 
+    padding-top: 80px; /* Ajustado para acomodar a logo */
 }
 
 h1, h2 {
@@ -43,6 +43,26 @@ h1, h2 {
 h1 {
     margin-top: 0;
 }
+
+/* --- NOVO: Container de Estatísticas --- */
+#stats-container {
+    position: absolute; /* Posicionamento absoluto em relação ao .container */
+    top: 20px; /* Alinha com o topo */
+    right: 20px; /* Alinha com a direita */
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: right;
+    line-height: 1.4;
+    z-index: 9; /* Abaixo da logo, mas acima do conteúdo normal */
+    flex-shrink: 0;
+}
+
+#stats-container p {
+    margin: 0;
+}
+
 
 /* Seletores de Tipo e Sala */
 .selectors {
@@ -65,7 +85,7 @@ h1 {
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif; /* <-- GARANTE A FONTE NOS MENUS */
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Container da Agenda com Rolagem Interna */
@@ -128,6 +148,6 @@ tbody tr:nth-child(even) {
 }
 
 .status-ocupado {
-    background-color: #f7dadc;
+    background-color: #f8d7da;
     color: #721c24;
 }
